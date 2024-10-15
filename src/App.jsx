@@ -10,7 +10,7 @@ class App extends React.Component {
   }
 
   render() {
-     return (
+      return (
     <>
     <div>
       <h1>Ciclo de Vida no React</h1>
@@ -20,7 +20,7 @@ class App extends React.Component {
       }}>
           { this.state.showCounter ? 'Remover contador' : 'Mostrar Contador' }
         </button>
-    {this.state.showCounter ?< Counter /> : null}
+    {this.state.showCounter ? < Counter /> : null}
     </div>
     </>
   );
